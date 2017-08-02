@@ -1,4 +1,4 @@
-package exer3_bituiga;
+package exer3;
 
 public class Rodent {
 
