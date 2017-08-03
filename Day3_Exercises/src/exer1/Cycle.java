@@ -9,12 +9,8 @@ public class Cycle {
 		
 	
 	public static void main(String args[]) {
-		BiCycle bike = new BiCycle();
-		TriCycle trike = new  TriCycle();
-		UniCycle uni = new  UniCycle();		
-		
-		((Cycle)bike).ride();
-		((Cycle)trike).ride();
-		((Cycle)uni).ride();
+		((Cycle)new BiCycle()).ride();
+		((Cycle)new  TriCycle()).ride();
+		((Cycle) new  UniCycle()).ride();
 	}
 }
